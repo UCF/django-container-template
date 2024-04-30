@@ -57,7 +57,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         role-to-assume: arn:aws:iam::654654512735:role/GithubActionsCD
-        role-session-name: GithubActionsCD
+        role-session-name: GithubActionsCDSession
         audience: sts.amazonaws.com
         aws-region: ${{ env.AWS_REGION }}
    
